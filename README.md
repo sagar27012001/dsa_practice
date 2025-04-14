@@ -1,1 +1,1 @@
-# dsa_practice
+# Implementation of standard DSA problems.
