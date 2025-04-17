@@ -35,6 +35,7 @@ int getMinimumGroups(int n, vector<int> managers) {
 }
 
 int main() {
+    FAST_IO;
     int n;
     cin >> n;
     vector<int> managers(n);
