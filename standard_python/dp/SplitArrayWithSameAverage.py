@@ -15,7 +15,7 @@ def splitArraySameAverage(nums: List[int]) -> bool:
         for k in range(n - 1, -1, -1):
             for s in dp[k]:
                 dp[k + 1].add(s + num)
-    
+
     for k in range(1, n // 2 + 1):
         if (total_sum * k) % n == 0:
             target_sum = (total_sum * k) // n
